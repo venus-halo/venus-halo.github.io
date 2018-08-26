@@ -29,32 +29,32 @@ export default {
         {
           img: '/img/feature_transpart.png',
           title: '基于领域驱动',
-          content: '基于DDD',
+          content: '基于DDD的设计思想，将应用分为表现层，应用层，领域层，基础设施层',
         },
         {
           img: '/img/feature_loadbalances.png',
           title: 'CQRS架构',
-          content: '特性2的简单概括',
+          content: '将应用程序的查询部分和命令部分完全分离，这两部分可以用完全不同的模型和技术去实现',
         },
         {
           img: '/img/feature_service.png',
-          title: '扩展点思想',
-          content: '特性3的简单概括',
+          title: '扩展点设计',
+          content: '基于扩展点设计思想，灵活优雅的扩展代码增加功能',
         },
         {
           img: '/img/feature_hogh.png',
           title: '流程编排',
-          content: '特性4的简单概括',
+          content: '流程编排，使流程节点功能复用，编排功能满足多样多形态的业务需求',
         },
         {
           img: '/img/feature_runtime.png',
-          title: '特性5',
-          content: '特性5的简单概括',
+          title: '架构治理',
+          content: '架构治理，框架层面规范，控制程序员的随心所欲，解决软件的复杂性问题',
         },
         {
           img: '/img/feature_maintenance.png',
-          title: '特性6',
-          content: '特性6的简单概括',
+          title: '代码防腐',
+          content: '防腐层，代码防腐，助力业务架构演进升级，降低技术债',
         },
       ],
     },
@@ -68,18 +68,15 @@ export default {
       },
     },
     users: {
-      title: '用户',
-      desc: <span>简单描述</span>,
+      title: '谁在使用Halo？',
+      desc: <span>请在 <a rel="noopener noreferrer" target="_blank" href="https://github.com/SoftwareKing/halo/issues/14">Wanted: who&#39;s using halo</a> 上提供信息来帮助Halo做的更好。</span>,
       list: [
-        '/img/users_alibaba.png',
-        '/img/users_alibaba.png',
-        '/img/users_alibaba.png',
       ],
     },
   },
   'en-us': {
     brand: {
-      brandName: 'brandName',
+      brandName: 'Halo Framework',
       briefIntroduction: 'some description of product',
       buttons: [
         {
