@@ -87,7 +87,7 @@ export default {
     ],
     disclaimer: {
       title: '免责声明',
-      content: '免责声明的具体内容',
+      content: 'Halo框架遵循Apache Licene 2.0 协议',
     },
     documentation: {
       title: '文档',
