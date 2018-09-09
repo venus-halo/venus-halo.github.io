@@ -39,47 +39,30 @@ export default {
           },
 
           {
-            title: '领域驱动',
+            title: '领域驱动设计',
             link: '/zh-cn/docs/ddd/intro.html',
-            opened: false,
-            children: [
-              {
-                title: '实体',
-                link: '/zh-cn/docs/dir/demo3.html',
-              },
-              {
-                title: '值对象',
-                link: '/zh-cn/docs/dir/demo3.html',
-              },
-              {
-                title: '领域服务',
-                link: '/zh-cn/docs/dir/demo3.html',
-              },
-              {
-                title: '聚合与聚合根',
-                link: '/zh-cn/docs/dir/demo3.html',
-              },
-              {
-                title: '边界上下文',
-                link: '/zh-cn/docs/dir/demo3.html',
-              },
-              {
-                title: '工厂',
-                link: '/zh-cn/docs/dir/demo3.html',
-              },
-              {
-                title: '仓储/资源库',
-                link: '/zh-cn/docs/dir/demo3.html',
-              },
-            ],
 
           },
           {
             title: 'Halo设计',
-            opened: true,
             children: [
               {
                 title: '架构设计',
+                link: '/zh-cn/docs/halo/arch.html',
+              },
+
+              {
+                title: 'CQRS设计',
+                link: '/zh-cn/docs/halo/arch.html',
+              },
+
+              {
+                title: '扩展点设计',
+                link: '/zh-cn/docs/halo/arch.html',
+              },
+
+              {
+                title: '流程编排设计',
                 link: '/zh-cn/docs/halo/arch.html',
               },
             ],
