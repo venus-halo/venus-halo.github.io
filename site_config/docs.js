@@ -57,19 +57,28 @@ export default {
               },
 
               {
+                title: 'Domain设计',
+                link: '/zh-cn/docs/halo/domain.html',
+              },
+
+              {
                 title: '扩展点设计',
-                link: '/zh-cn/docs/halo/arch.html',
+                link: '/zh-cn/docs/halo/extension.html',
               },
 
               {
                 title: 'convertor设计',
                 link: '/zh-cn/docs/halo/convert.html',
               },
-
+              
+              {
+                title: 'Command设计',
+                link: '/zh-cn/docs/halo/command.html',
+              },
 
               {
                 title: '流程编排设计',
-                link: '/zh-cn/docs/halo/arch.html',
+                link: '/zh-cn/docs/halo/flow.html',
               },
             ],
           },
@@ -79,6 +88,10 @@ export default {
             children: [
               {
                 title: '引入Maven依赖',
+                link: '/zh-cn/docs/halo/user/maven.html',
+              },
+              {
+                title: 'Halo与Spring Cloud使用',
                 link: '/zh-cn/docs/halo/user/maven.html',
               },
             ],
