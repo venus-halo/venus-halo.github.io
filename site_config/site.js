@@ -27,7 +27,7 @@ export default {
       },
     ],
     disclaimer: {
-      title: 'Disclaimer',
+      title: 'Vision',
       content: 'the disclaimer content',
     },
     documentation: {
@@ -86,8 +86,8 @@ export default {
       }
     ],
     disclaimer: {
-      title: '免责声明',
-      content: 'Halo框架遵循Apache Licene 2.0 协议',
+      title: '愿景',
+      content: '在微服务架构落地的过程中，Halo与Spring Cloud，Dubbo等相辅相成，Spring Cloud，Dubbo等解决架构分布式基础设施等问题，Halo为业务治理和架构防腐的提供可落地的方法论，两者并驾齐驱，为企业IT架构变革微服务改造保驾护航。',
     },
     documentation: {
       title: '文档',
