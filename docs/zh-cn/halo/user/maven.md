@@ -31,4 +31,5 @@
 </dependency>
 ```
 
-案例:[crm-sales](https://github.com/SoftwareKing/crm-sales)
+案例:[crm-sales](https://github.com/SpringCloud/spring-cloud-code/tree/master/ch25)
+
