@@ -88,11 +88,11 @@ export default {
   'en-us': {
     brand: {
       brandName: 'Halo Framework',
-      briefIntroduction: 'some description of product',
+      briefIntroduction: 'Halo Framework is an Application Framework based on Domain Driven +CQRS+ extension point + process layout.',
       buttons: [
         {
           text: 'Quick Start',
-          link: '/en-us/docs/demo1.html',
+          link: '/zh-cn/docs/halo/summary.html',
           type: 'primary',
         },
         {
@@ -166,7 +166,7 @@ export default {
       title: 'users',
       desc: <span>some description</span>,
       list: [
-        '/img/users_alibaba.png',
+        '/img/users_alibaba1.png',
       ],
     },
   },
