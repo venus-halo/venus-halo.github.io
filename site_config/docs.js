@@ -62,12 +62,28 @@ export default {
               },
 
               {
+                title: 'convertor设计',
+                link: '/zh-cn/docs/halo/convert.html',
+              },
+
+
+              {
                 title: '流程编排设计',
                 link: '/zh-cn/docs/halo/arch.html',
               },
             ],
           },
           
+          {
+            title: '使用指南',
+            children: [
+              {
+                title: '引入Maven依赖',
+                link: '/zh-cn/docs/halo/user/maven.html',
+              },
+            ],
+          },
+
         ],
       },
     ],
