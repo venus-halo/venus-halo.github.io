@@ -123,7 +123,35 @@ $animation5Height: 460px;
       }
     }
 
-    .star {
+
+.version-note {
+      text-align: center;
+      margin: 22px 0 10px;
+      a {
+        text-decoration: none;
+        display: inline-block;
+        font-family: Avenir-Heavy;
+        font-size: 14px;
+        color: #FFF;
+        text-align: center;
+        background: #46484B;
+        border-radius: 2px;
+        line-height: 24px;
+        padding: 0 6px;
+        margin-right: 10px;
+      }
+    }
+    .release-date {
+      font-family: Avenir-Medium;
+      font-size: 12px;
+      color: #999;
+      text-align: center;
+    }
+    
+    
+
+
+.star {
   display: block;
   width: 5px;
   height: 5px;

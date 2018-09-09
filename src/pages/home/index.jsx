@@ -58,6 +58,13 @@ class Home extends Language {
               dataSource.brand.buttons.map(b => <Button type={b.type} key={b.type} link={b.link} target={b.target}>{b.text}</Button>)
             }
             </div>
+             
+             <div className="version-note">
+              <a target="_blank" rel="noopener noreferrer" href={getLink(dataSource.brand.version.link)}>{dataSource.brand.version.text}</a>
+              <a target="_blank" rel="noopener noreferrer" href={getLink(dataSource.brand.note.link)}>{dataSource.brand.note.text}</a>
+            </div>
+            <div className="release-date">{dataSource.brand.releaseDate}</div>
+
           </div>
           
           <div className="stars">

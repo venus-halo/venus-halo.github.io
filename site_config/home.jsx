@@ -16,7 +16,18 @@ export default {
           link: 'https://github.com/SoftwareKing/halo',
           type: 'normal',
         },
+
       ],
+      version: {
+        text: 'V1.0.4',
+        link: 'https://github.com/softwareking/halo/releases',
+      },
+      note: {
+        text: '版本说明',
+        link: 'https://github.com/softwareking/halo/releases',
+      },
+      releaseDate: '2018年8月6日发布',
+
     },
     introduction: {
       title: '基于领域驱动CQRS带扩展点的应用框架',
@@ -90,6 +101,17 @@ export default {
           type: 'normal',
         },
       ],
+
+      version: {
+        text: 'V1.0.4',
+        link: 'https://github.com/softwareking/halo/releases',
+      },
+      note: {
+        text: 'Release Note',
+        link: 'https://github.com/softwareking/halo/releases',
+      },
+      releaseDate: 'Released on August 6, 2018',
+
     },
     introduction: {
       title: 'introduction title',
