@@ -30,26 +30,61 @@ export default {
   'zh-cn': {
     sidemenu: [
       {
-        title: '大标题',
+        title: 'Halo文档',
         children: [
+
           {
-            title: '示例1',
-            link: '/zh-cn/docs/demo1.html',
+            title: 'Halo框架概述',
+            link: '/zh-cn/docs/halo/summary.html',
           },
+
           {
-            title: '示例2',
-            link: '/zh-cn/docs/demo2.html',
-          },
-          {
-            title: '目录',
-            opened: true,
+            title: '领域驱动',
+            link: '/zh-cn/docs/ddd/intro.html',
+            opened: false,
             children: [
               {
-                title: '示例3',
+                title: '实体',
+                link: '/zh-cn/docs/dir/demo3.html',
+              },
+              {
+                title: '值对象',
+                link: '/zh-cn/docs/dir/demo3.html',
+              },
+              {
+                title: '领域服务',
+                link: '/zh-cn/docs/dir/demo3.html',
+              },
+              {
+                title: '聚合与聚合根',
+                link: '/zh-cn/docs/dir/demo3.html',
+              },
+              {
+                title: '边界上下文',
+                link: '/zh-cn/docs/dir/demo3.html',
+              },
+              {
+                title: '工厂',
+                link: '/zh-cn/docs/dir/demo3.html',
+              },
+              {
+                title: '仓储/资源库',
                 link: '/zh-cn/docs/dir/demo3.html',
               },
             ],
+
           },
+          {
+            title: 'Halo设计',
+            opened: true,
+            children: [
+              {
+                title: '架构设计',
+                link: '/zh-cn/docs/halo/arch.html',
+              },
+            ],
+          },
+          
         ],
       },
     ],
