@@ -8,17 +8,13 @@ Halo框架是基于CQRS+扩展点+流程编排的应用框架，致力于采用�
 
 ## 2.Halo架构
 
-### 2.1 第二代 Halo架构
+### 2.1 Halo架构
 
-第二代Halo框架架构图如下所示
-
-![](/img/architecture.png)
-
-
-##### 2.2 第一代 Halo架构
-
-第一代Halo框架架构图如下所示
+Halo框架架构图如下所示
 
 ![](/img/architecture.png)
+
+
+
 
 
