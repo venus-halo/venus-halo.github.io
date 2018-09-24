@@ -34,7 +34,7 @@ export default {
         children: [
 
           {
-            title: 'Halo框架概述',
+            title: '什么是Halo',
             link: '/zh-cn/docs/halo/summary.html',
           },
 
@@ -45,6 +45,7 @@ export default {
           },
           {
             title: 'Halo设计',
+            opened: true,
             children: [
               {
                 title: '架构设计',
@@ -85,6 +86,7 @@ export default {
           
           {
             title: '使用指南',
+            opened: true,
             children: [
               {
                 title: '引入Maven依赖',
@@ -100,6 +102,6 @@ export default {
         ],
       },
     ],
-    barText: '文档',
+    barText: 'Halo文档',
   }
 };

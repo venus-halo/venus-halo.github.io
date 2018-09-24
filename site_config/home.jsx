@@ -6,15 +6,16 @@ export default {
       brandName: 'Halo Framework',
       briefIntroduction: 'Halo(光环)框架是基于领域驱动+CQRS+扩展点+流程编排的应用框架',
       buttons: [
-        {
-          text: '立即开始',
-          link: '/zh-cn/docs/halo/summary.html',
-          type: 'primary',
-        },
+        
         {
           text: '查看Github',
           link: 'https://github.com/SoftwareKing/halo',
           type: 'normal',
+        },
+        {
+          text: '立即开始',
+          link: '/zh-cn/docs/halo/summary.html',
+          type: 'primary',
         },
 
       ],
