@@ -39,6 +39,11 @@ export default {
           },
 
           {
+            title: 'Roadmap',
+            link: '/zh-cn/docs/halo/roadmap.html',
+
+          },
+          {
             title: '领域驱动设计',
             link: '/zh-cn/docs/ddd/intro.html',
 
