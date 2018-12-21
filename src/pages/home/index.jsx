@@ -41,6 +41,7 @@ class Home extends Language {
     return (
       <div className="home-page">
         <section className="top-section">
+            <div id="canvasWrapper"></div>
           <Header
             currentKey="home"
             type={headerType}
