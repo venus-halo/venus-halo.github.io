@@ -37,6 +37,7 @@
     "sass-loader": "6.0.2",
     "style-loader": "0.6.5",
     "webpack": "^2.6.1",
+    "webpack-copy-plugin": "0.0.4",
     "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
