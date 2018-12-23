@@ -3,10 +3,9 @@ import React from 'react';
 export default {
   'zh-cn': {
     brand: {
-      brandName: 'Halo Framework',
-      briefIntroduction: 'Halo(光环)框架是基于领域驱动+CQRS+扩展点+流程编排的应用框架',
+      brandName: 'Halo',
+      briefIntroduction: 'Halo(光环)致力于解决业务架构治理，代码防腐，中台建设。该框架是基于领域驱动+CQRS+扩展点+流程编排的应用框架',
       buttons: [
-        
         {
           text: '查看Github',
           link: 'https://github.com/SoftwareKing/halo',
@@ -83,6 +82,7 @@ export default {
       title: '谁在使用Halo？',
       desc: <span>请在 <a rel="noopener noreferrer" target="_blank" href="https://github.com/SoftwareKing/halo/issues/14">Wanted: who&#39;s using halo</a> 上提供信息来帮助Halo做的更好。</span>,
       list: [
+        //'/img/users_alibaba.png'
       ],
     },
   },
