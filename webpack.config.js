@@ -2,6 +2,7 @@ const path = require('path');
 const fs = require('fs');
 const webpack = require('webpack');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const WebpackCopyPlugin = require("webpack-copy-plugin")
 
 const entry = {};
 const targetPath = path.join(__dirname, './src/pages');
@@ -48,5 +49,10 @@ module.exports = {
     new webpack.NoEmitOnErrorsPlugin(),
     new webpack.optimize.OccurrenceOrderPlugin(),
     new ExtractTextPlugin('[name].css'),
+      new WebpackCopyPlugin({
+          dirs: [
+              { from: 'static', to: 'build' }
+          ]
+      })
   ]
 };
