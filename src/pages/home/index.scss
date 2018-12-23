@@ -68,10 +68,15 @@ $animation5Height: 460px;
 }
 
 .home-page {
+  #canvasWrapper{
+    width: 100%;
+    height: 560px;
+    background-color:#050510
+  }
   .top-section {
     position: relative;
-    height: 720px;
-    background: #000 url(http://www.softwhy.com/demo/CSS/img/xingkong.jpg);
+    //height: 720px;
+    //background: #000 url(http://www.softwhy.com/demo/CSS/img/xingkong.jpg);
     .animation {
       position: absolute;
       top: 0;
@@ -254,17 +259,29 @@ $animation5Height: 460px;
   }
 }
 
+@keyframes textEnter {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+}
+
     .vertical-middle {
       position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
+      //left: 0;
+      right: 0;
+      //top: 50%;
+      top: 19%;
+      //transform: translateY(-50%);
+      animation: textEnter 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 2s backwards;
       box-sizing: border-box;
-      width: 100%;
+      //width: 100%;
+      width: 40%;
       text-align: center;
       padding: 0 20px;
+      font-weight: 300;
     }
-    .product-name {
+      .product-name {
       position: relative;
       display: inline-block;
       h2 {
@@ -276,6 +293,7 @@ $animation5Height: 460px;
         margin: 0;
       }
     }
+
     .product-desc {
       opacity: 0.6;
       font-family: Avenir-Medium;
@@ -595,6 +613,88 @@ $animation5Height: 460px;
     .feature-section, .users-section {
       padding-left: 20px;
       padding-right: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .home-page {
+    .top-section {
+      .vertical-middle{
+        .button-area{
+          display: block;
+          .button {
+            margin-right: 20px;
+            &:first-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .home-page{
+    .top-section{
+      .vertical-middle{
+        h2{
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:920px) {
+  .home-page {
+    .top-section {
+      .vertical-middle{
+        .button-area{
+          display: flex;
+          flex-flow: column;
+          .button {
+            margin-right: 0;
+            &:first-child {
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: 981px) {
+  .home-page {
+    .top-section {
+      .vertical-middle {
+        .button-area {
+          display: block;
+          .button:first-child{
+            margin-right: 20px;
+          }
+        }
+
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-page {
+    .top-section {
+      .vertical-middle {
+        width: 90%;
+        .button-area{
+          display:block;
+          .button:first-child{
+            margin-right: 20px;
+          }
+        }
+      }
     }
   }
 }
