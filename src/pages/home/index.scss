@@ -270,7 +270,7 @@ $animation5Height: 460px;
     .vertical-middle {
       position: absolute;
       //left: 0;
-      right: 118px;
+      right: 345px;
       //top: 50%;
       top: 19%;
       //transform: translateY(-50%);
@@ -698,4 +698,10 @@ $animation5Height: 460px;
       }
     }
   }
+}
+
+#myCanvas {
+  touch-action: none;
+  cursor: inherit;
+  margin-left: -121px;
 }

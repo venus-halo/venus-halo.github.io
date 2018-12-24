@@ -1083,7 +1083,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(30px); } }
   .home-page .top-section .vertical-middle {
     position: absolute;
-    right: 118px;
+    right: 345px;
     top: 19%;
     animation: textEnter 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 2s backwards;
     box-sizing: border-box;
@@ -1403,3 +1403,8 @@ h1, h2, h3, h4, h5, h6 {
       display: block; }
       .home-page .top-section .vertical-middle .button-area .button:first-child {
         margin-right: 20px; } }
+
+#myCanvas {
+  touch-action: none;
+  cursor: inherit;
+  margin-left: -121px; }
