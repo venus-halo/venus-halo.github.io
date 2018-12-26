@@ -169,6 +169,7 @@ $animation5Height: 460px;
   box-shadow: 0 0 5px 5px rgba(255,255,255,.3);
   opacity: 0;
   z-index: 2;
+  margin-top: -4px;
 }
 .star:after {
   content: '';
@@ -269,7 +270,7 @@ $animation5Height: 460px;
     .vertical-middle {
       position: absolute;
       //left: 0;
-      right: 0;
+      right: 263px;
       //top: 50%;
       top: 19%;
       //transform: translateY(-50%);
@@ -361,7 +362,7 @@ $animation5Height: 460px;
           opacity: 0.56;
           font-family: Avenir-Medium;
           font-size: 18px;
-          color: #999;
+          color: #333;
         }
       }
       img {
@@ -697,4 +698,10 @@ $animation5Height: 460px;
       }
     }
   }
+}
+
+#myCanvas {
+  touch-action: none;
+  cursor: inherit;
+  margin-left: -121px;
 }

@@ -171,7 +171,7 @@
           color: #999;
           margin: 10px 0; }
         .footer-container .footer-body .cols-container dd a:hover {
-          color: #2DACEC; }
+          color: #8755FF; }
     .footer-container .footer-body .copyright {
       border-top: 1px solid #ccc;
       min-height: 60px;
@@ -921,10 +921,13 @@ h1, h2, h3, h4, h5, h6 {
     transform: translate3d(0, 460px, 0);
     opacity: 0; } }
 
+.home-page #canvasWrapper {
+  width: 100%;
+  height: 560px;
+  background-color: #050510; }
+
 .home-page .top-section {
-  position: relative;
-  height: 720px;
-  background: #000 url(http://www.softwhy.com/demo/CSS/img/xingkong.jpg); }
+  position: relative; }
   .home-page .top-section .animation {
     position: absolute;
     top: 0;
@@ -995,7 +998,8 @@ h1, h2, h3, h4, h5, h6 {
     animation: star-ani 3s infinite ease-out;
     box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.3);
     opacity: 0;
-    z-index: 2; }
+    z-index: 2;
+    margin-top: -4px; }
   .home-page .top-section .star:after {
     content: '';
     display: block;
@@ -1072,15 +1076,21 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transform: scale(1) rotate(0) translate3d(-300px, 300px, 0);
     -moz-transform: scale(1) rotate(0) translate3d(-300px, 300px, 0);
     transform: scale(1) rotate(0) translate3d(-300px, 300px, 0); } }
+
+@keyframes textEnter {
+  from {
+    opacity: 0;
+    transform: translateX(30px); } }
   .home-page .top-section .vertical-middle {
     position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
+    right: 263px;
+    top: 19%;
+    animation: textEnter 0.6s cubic-bezier(0.165, 0.84, 0.44, 1) 2s backwards;
     box-sizing: border-box;
-    width: 100%;
+    width: 40%;
     text-align: center;
-    padding: 0 20px; }
+    padding: 0 20px;
+    font-weight: 300; }
   .home-page .top-section .product-name {
     position: relative;
     display: inline-block; }
@@ -1135,7 +1145,7 @@ h1, h2, h3, h4, h5, h6 {
       top: 165px;
       width: 3px;
       height: 17px;
-      background-image: linear-gradient(0deg, #03DDE4 0%, #30AFED 51%, #8755FF 100%); }
+      background-image: linear-gradient(0deg, #8755FF 0%, #30AFED 51%, #8755FF 100%); }
     .home-page .introduction-section .introduction-body .introduction {
       display: inline-block;
       width: calc(100% - 726px);
@@ -1151,7 +1161,7 @@ h1, h2, h3, h4, h5, h6 {
         opacity: 0.56;
         font-family: Avenir-Medium;
         font-size: 18px;
-        color: #999; }
+        color: #333; }
     .home-page .introduction-section .introduction-body img {
       width: 562px;
       margin: 0 82px;
@@ -1189,7 +1199,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(-50%);
     width: 3px;
     height: 17px;
-    background-image: linear-gradient(0deg, #03DDE4 0%, #30AFED 51%, #8755FF 100%); }
+    background-image: linear-gradient(0deg, #8755FF 0%, #30AFED 51%, #8755FF 100%); }
   .home-page .feature-section h3 {
     font-family: Avenir-Heavy;
     font-size: 36px;
@@ -1228,7 +1238,7 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%; } }
 
 .home-page .start-section {
-  background-image: linear-gradient(0deg, #03DDE4 0%, #30AFED 51%, #8755FF 100%); }
+  background-image: linear-gradient(0deg, #8755FF 0%, #30AFED 51%, #8755FF 100%); }
   .home-page .start-section .start-body {
     max-width: 1280px;
     margin: 0 auto;
@@ -1271,7 +1281,7 @@ h1, h2, h3, h4, h5, h6 {
       .home-page .start-section .start-body .left-part a {
         font-family: Avenir-Heavy;
         font-size: 14px;
-        color: #2DACEC;
+        color: #8755FF;
         text-align: center;
         display: inline-block;
         width: 140px;
@@ -1323,7 +1333,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(-50%);
     width: 3px;
     height: 17px;
-    background-image: linear-gradient(0deg, #03DDE4 0%, #30AFED 51%, #8755FF 100%); }
+    background-image: linear-gradient(0deg, #8755FF 0%, #30AFED 51%, #8755FF 100%); }
   .home-page .users-section h3 {
     font-family: Avenir-Heavy;
     font-size: 36px;
@@ -1358,3 +1368,43 @@ h1, h2, h3, h4, h5, h6 {
   .home-page .feature-section, .home-page .users-section {
     padding-left: 20px;
     padding-right: 20px; } }
+
+@media screen and (max-width: 1366px) {
+  .home-page .top-section .vertical-middle .button-area {
+    display: block; }
+    .home-page .top-section .vertical-middle .button-area .button {
+      margin-right: 20px; }
+      .home-page .top-section .vertical-middle .button-area .button:first-child {
+        margin-bottom: 0; } }
+
+@media screen and (max-width: 1024px) {
+  .home-page .top-section .vertical-middle h2 {
+    font-size: 30px; } }
+
+@media screen and (max-width: 920px) {
+  .home-page .top-section .vertical-middle .button-area {
+    display: flex;
+    flex-flow: column; }
+    .home-page .top-section .vertical-middle .button-area .button {
+      margin-right: 0; }
+      .home-page .top-section .vertical-middle .button-area .button:first-child {
+        margin-bottom: 10px; } }
+
+@media screen and (min-width: 981px) {
+  .home-page .top-section .vertical-middle .button-area {
+    display: block; }
+    .home-page .top-section .vertical-middle .button-area .button:first-child {
+      margin-right: 20px; } }
+
+@media screen and (max-width: 768px) {
+  .home-page .top-section .vertical-middle {
+    width: 90%; }
+    .home-page .top-section .vertical-middle .button-area {
+      display: block; }
+      .home-page .top-section .vertical-middle .button-area .button:first-child {
+        margin-right: 20px; } }
+
+#myCanvas {
+  touch-action: none;
+  cursor: inherit;
+  margin-left: -121px; }
