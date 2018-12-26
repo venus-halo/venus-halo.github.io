@@ -17,8 +17,6 @@ var n=r(8),o=i(n),s=r(14),a=r(9);r(136);var u,h=r(259),l=r(262),c=r(261),f=r(257
 				this.pointLoopContainer=new c["default"],this.pointBg=new s.Graphics,
 				this.bgContainer=new f["default"]({w:this.width,h:this.height}),
 				this.stage.alpha=0
-			console.log("1",r);
-			console.log(l);
 		}
 
 			return t.prototype.init=function(){
