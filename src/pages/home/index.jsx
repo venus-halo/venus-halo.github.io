@@ -41,40 +41,38 @@ class Home extends Language {
     return (
       <div className="home-page">
         <section className="top-section">
+            <Header
+                currentKey="home"
+                type={headerType}
+                logo={headerLogo}
+                language={language}
+                onLanguageChange={this.onLanguageChange}
+            />
+            <div className="stars">
+                <div className="star"></div>
+                <div className="star pink"></div>
+                <div className="star blue"></div>
+                <div className="star yellow"></div>
+                <div className="star purple"></div>
+            </div>
             <div id="canvasWrapper"></div>
-          <Header
-            currentKey="home"
-            type={headerType}
-            logo={headerLogo}
-            language={language}
-            onLanguageChange={this.onLanguageChange}
-          />
-          <div className="vertical-middle">
-            <div className="product-name">
-              <h2>{dataSource.brand.brandName}</h2>
-            </div>
-            <p className="product-desc">{dataSource.brand.briefIntroduction}</p>
-            <div className="button-area">
-            {
-              dataSource.brand.buttons.map(b => <Button type={b.type} key={b.type} link={b.link} target={b.target}>{b.text}</Button>)
-            }
-            </div>
-             
-             <div className="version-note">
-              <a target="_blank" rel="noopener noreferrer" href={getLink(dataSource.brand.version.link)}>{dataSource.brand.version.text}</a>
-              <a target="_blank" rel="noopener noreferrer" href={getLink(dataSource.brand.note.link)}>{dataSource.brand.note.text}</a>
-            </div>
-            <div className="release-date">{dataSource.brand.releaseDate}</div>
+            <div className="vertical-middle">
+                <div className="product-name">
+                    <h2>{dataSource.brand.brandName}</h2>
+                </div>
+                <p className="product-desc">{dataSource.brand.briefIntroduction}</p>
+                <div className="button-area">
+                    {
+                        dataSource.brand.buttons.map(b => <Button type={b.type} key={b.type} link={b.link} target={b.target}>{b.text}</Button>)
+                    }
+                </div>
 
-          </div>
-          
-          <div className="stars">
-             <div className="star"></div>
-             <div className="star pink"></div>
-             <div className="star blue"></div>
-             <div className="star yellow"></div>
-             <div className="star purple"></div>
-          </div>
+                <div className="version-note">
+                    <a target="_blank" rel="noopener noreferrer" href={getLink(dataSource.brand.version.link)}>{dataSource.brand.version.text}</a>
+                    <a target="_blank" rel="noopener noreferrer" href={getLink(dataSource.brand.note.link)}>{dataSource.brand.note.text}</a>
+                </div>
+                <div className="release-date">{dataSource.brand.releaseDate}</div>
+            </div>
         </section>
         <section className="introduction-section">
           <div className="introduction-body">
